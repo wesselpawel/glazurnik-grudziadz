@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f3f2ee;
+  --foreground: #1c1917;
+  --accent: #a34a22;
+  --accent-hover: #863a1a;
+  --card: #fcfbfa;
+  --border: #e0ddd7;
+  --hero-tint: #f7f4ef;
+  --trust-surface: rgba(255, 255, 255, 0.9);
+
+  /* Typography — hierarchy */
+  --text-heading: #1a1816;
+  --text-body: #3f3c38;
+  --text-secondary: #5f5b55;
+  --text-tertiary: #7a756d;
+  --text-caption: #908a82;
+
+  /* Legacy alias (sections migrating to tokens above) */
+  --muted: var(--text-secondary);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-body);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Horizontal rhythm */
+.page-shell {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 88rem;
+  padding-inline: 1.375rem;
+}
+
+@media (min-width: 640px) {
+  .page-shell {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-shell {
+    padding-inline: 3.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page-shell {
+    padding-inline: 3.75rem;
+  }
+}
+
+/* Vertical section rhythm */
+.section-pad {
+  padding-block: 4rem;
+}
+
+@media (min-width: 640px) {
+  .section-pad {
+    padding-block: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-pad {
+    padding-block: 6rem;
+  }
+}
+
+/* Reusable: space from section title to first body line */
+.section-lead {
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .section-lead {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Reusable: space from intro block to main content (grids, cards) */
+.section-content {
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .section-content {
+    margin-top: 3.5rem;
+  }
 }

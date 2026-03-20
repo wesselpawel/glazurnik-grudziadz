@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "title": "Glazurnik Grudziądz – Darmowa Wycena | Profesjonalne Układanie Płytek",
+    "description": "Szukasz dobrego glazurnika w Grudziądzu? Wykonujemy łazienki, kuchnie i podłogi. Sprawdź realizacje i zamów darmową wycenę w 2 minuty.",
+    "keywords": [
+      "glazurnik grudziądz",
+      "płytkarz grudziądz",
+      "dobry glazurnik grudziądz",
+      "glazurnik grudziądz cena",
+      "usługi glazurnicze grudziądz"
+    ],
+    "locale": "pl_PL",
+    "openGraph": {
+      "title": "Glazurnik Grudziądz – układanie płytek i kompleksowe łazienki",
+      "description": "Darmowa wycena, szybkie terminy, setki realizacji w Grudziądzu i okolicach."
+    }
+  },
+  "navigation": {
+    "brand": "Glazurnik Grudziądz",
+    "links": [
+      { "label": "Usługi", "href": "/#uslugi" },
+      { "label": "Współpraca", "href": "/#proces" },
+      { "label": "Realizacje", "href": "/#realizacje" },
+      { "label": "Cennik", "href": "/#cennik" },
+      { "label": "FAQ", "href": "/#faq" }
+    ],
+    "cta": { "label": "Darmowa wycena", "href": "/#wycena" }
+  },
+  "hero": {
+    "id": "top",
+    "background_image": "/realization2.png",
+    "h1": "Glazurnik Grudziądz – profesjonalne układanie płytek",
+    "subheadline": "Tworzymy nowoczesne łazienki, kuchnie i podłogi. Szybkie terminy i darmowa wycena.",
+    "cta_primary": { "label": "Zamów darmową wycenę", "href": "/#wycena" },
+    "cta_secondary": { "label": "Zobacz realizacje", "href": "/#realizacje" },
+    "trust_badges": [
+      { "text": "Doświadczenie 10+ lat" },
+      { "text": "Terminowość" },
+      { "text": "Gwarancja jakości" },
+      { "text": "Setki realizacji" }
+    ],
+    "trust_line": "Lokalna firma z Grudziądzu · Wycena po zapoznaniu z zakresem · Bez ukrytych kosztów"
+  },
+  "lead_form": {
+    "id": "wycena",
+    "title": "Darmowa wycena",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Imię",
+        "type": "text",
+        "placeholder": "Jan",
+        "required": true,
+        "autoComplete": "given-name"
+      },
+      {
+        "id": "phone",
+        "label": "Telefon",
+        "type": "tel",
+        "placeholder": "+48 …",
+        "required": true,
+        "autoComplete": "tel"
+      },
+      {
+        "id": "scope",
+        "label": "Zakres prac",
+        "type": "textarea",
+        "placeholder": "Np. kompleksowa łazienka, podłoga w salonie…",
+        "required": true,
+        "rows": 3
+      },
+      {
+        "id": "area",
+        "label": "Metraż",
+        "type": "text",
+        "placeholder": "Np. 12 m²",
+        "required": false,
+        "autoComplete": "off"
+      },
+      {
+        "id": "photo",
+        "label": "Opcjonalnie: zdjęcie",
+        "type": "file",
+        "accept": "image/*",
+        "required": false
+      }
+    ],
+    "cta": "Wyślij zapytanie",
+    "note": "Skontaktujemy się Tobą"
+  },
+  "realizations_strip": {
+    "heading": "Wybrane realizacje"
+  },
+  "trends_2026": {
+    "id": "trendy-lazienki-2026",
+    "title": "Co góruje w łazienkach w 2026 roku - to najnowsze trendy i stylizacje glazurnicze w Grudziądzu!",
+    "summary_title": "W skrócie",
+    "summary_items": [
+      { "text": "🥇 Naturalność (drewno/kamień/beton)" },
+      { "text": "🥈 Duże formaty i minimalizm" },
+      { "text": "🥉 Geometryczne i strukturalne płytki" },
+      { "text": "➕ dodatki: retro, kolorowe akcenty, rękodzieło" }
+    ],
+    "images": [
+      { "file": "1.png", "alt": "Łazienka w trendzie naturalnym – inspiracja glazurnicza" },
+      { "file": "2.png", "alt": "Duży format i minimalizm w aranżacji" },
+      { "file": "3.png", "alt": "Płytki strukturalne i geometryczne wzory" },
+      { "file": "4.png", "alt": "Stylizacja łazienki – trendy 2026" },
+      { "file": "5.png", "alt": "Detale glazurnicze i akcenty kolorystyczne" }
+    ]
+  },
+  "services": {
+    "id": "uslugi",
+    "title": "Usługi glazurnicze w Grudziądzu",
+    "intro": "Jasny zakres prac, uczciwa wycena i porządek na budowie. Poniżej szczegóły usług, które wykonujemy najczęściej.",
+    "form_href": "/#wycena",
+    "items": [
+      {
+        "id": "ukladanie-plytek",
+        "title": "Układanie płytek",
+        "lead": "Precyzyjne układanie gresu, ceramiki i mozaiki w łazienkach, kuchniach i na podłogach.",
+        "paragraphs": [
+          "Dobieramy system zaprawy i fug pod klasę ścieralności, wilgotność pomieszczenia i format płytki – od klasycznej ceramiki po duży format i płytki rektyfikowane.",
+          "Dbamy o równe linie, estetyczne narożniki i szczelne połączenia z brodzikiem, wanną czy listwami. Na życzenie doradzamy układ i kierunek fug, by wnętrze wyglądało spójnie i nowocześnie.",
+          "Pracujemy w Grudziądzu i okolicach – możemy objąć zarówno pojedyncze pomieszczenia, jak i całe mieszkania pod klucz glazurniczy."
+        ],
+        "image": "/service1.png",
+        "image_alt": "Profesjonalne układanie płytek – gres i ceramika",
+        "cta_label": "Zapytaj o układanie płytek"
+      },
+      {
+        "id": "lazienki-kompleks",
+        "title": "Kompleksowe wykończenia łazienek",
+        "lead": "Realizujemy łazienki od A do Z – od przygotowania podłoża po montaż armatury.",
+        "paragraphs": [
+          "Zaczynamy od oceny stanu podłoża: wyrównanie, hydroizolacja i przygotowanie pod płytkę to podstawa trwałej łazienki. Wykonujemy odpływy liniowe, brodziki, płytki w strefie prysznica oraz estetyczne wykończenia nisz i półek.",
+          "Współpracujemy z harmonogramem remontu – wiemy, kiedy wchodzi hydraulika, a kiedy kolej na glazurę, żeby uniknąć kosztownych poprawek.",
+          "Po zakończeniu prac zostawiamy czysty plac budowy i krótką listę zaleceń pielęgnacyjnych, żeby fug i powłoki służyły latami."
+        ],
+        "image": "/service2.png",
+        "image_alt": "Kompleksowa realizacja łazienki z płytkami",
+        "cta_label": "Wycena łazienki pod klucz"
+      },
+      {
+        "id": "kuchnie-podlogi",
+        "title": "Kuchnie i podłogi",
+        "lead": "Trwałe i estetyczne realizacje w kuchniach, salonach i korytarzach.",
+        "paragraphs": [
+          "W kuchniach często łączymy strefę roboczą ze strefą jadalnianą – płytki „na zabudowę”, pas między szafkami i wykończenia pod okapem wykonujemy tak, by łatwo było utrzymać czystość.",
+          "Na podłogach stawiamy na gres odporny na rysy i ścieranie, z dbałością o progi, przejścia do paneli oraz estetyczne listwy.",
+          "Duże przestrzenie dzielimy na logiczne etapy prac, żeby mieszkańcy mogli jak najszybciej wrócić do codziennego funkcjonowania."
+        ],
+        "image": "/service3.png",
+        "image_alt": "Płytki w kuchni i gres na podłodze",
+        "cta_label": "Zamów wycenę kuchni / podłogi"
+      },
+      {
+        "id": "poprawki-renowacje",
+        "title": "Poprawki po innych fachowcach",
+        "lead": "Naprawiamy źle wykonane prace i doprowadzamy je do perfekcji.",
+        "paragraphs": [
+          "Oglądamy problem na miejscu: odklejające się płytki, nieszczelne narożniki, nierówne fugi czy zły spadek do odpływu – proponujemy rozwiązanie i kosztorys zamiast „łatania na szybko”.",
+          "Często da się uratować część materiału lub dobrać zamiennik wizualnie zbliżony, żeby nie przebudowywać całego pomieszczenia.",
+          "Po naprawie przechodzimy z Wami krótki odbiór: sprawdzamy szczelność, równość i detale, żebyście mieli pewność, że temat jest domknięty."
+        ],
+        "image": "/service4.png",
+        "image_alt": "Renowacja i poprawki glazurnicze",
+        "cta_label": "Opisz problem – przyjedziemy"
+      }
+    ]
+  },
+  "process": {
+    "id": "proces",
+    "title": "Jak wygląda współpraca",
+    "intro": "Przejrzyste etapy – od pierwszego kontaktu po odbiór. Wiesz, czego się spodziewać i kiedy.",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Kontakt i wycena",
+        "description": "Wysyłasz formularz lub dzwonisz – przygotowujemy wstępną wycenę."
+      },
+      {
+        "step": "2",
+        "title": "Oględziny",
+        "description": "Przyjeżdżamy na miejsce i ustalamy szczegóły realizacji."
+      },
+      {
+        "step": "3",
+        "title": "Realizacja",
+        "description": "Wykonujemy prace zgodnie z ustaleniami i harmonogramem."
+      },
+      {
+        "step": "4",
+        "title": "Odbiór",
+        "description": "Oddajemy gotowe wnętrze – czysto i perfekcyjnie wykonane."
+      }
+    ]
+  },
+  "gallery": {
+    "id": "realizacje",
+    "title": "Nasze realizacje",
+    "images": [
+      { "file": "1.png", "alt": "Realizacja glazurnicza – łazienka, Grudziądz" },
+      { "file": "2.png", "alt": "Układanie płytek – realizacja wnętrza" },
+      { "file": "3.png", "alt": "Łazienka po remoncie – glazurnik Grudziądz" },
+      { "file": "4.png", "alt": "Detale glazurnicze i wykończenie" },
+      { "file": "5.png", "alt": "Płytki na ścianie – realizacja" },
+      { "file": "6.png", "alt": "Łazienka z prysznicem – odbiór prac" },
+      { "file": "7.png", "alt": "Kompleksowa realizacja glazurnicza" }
+    ]
+  },
+  "pricing": {
+    "id": "cennik",
+    "title": "Cennik glazurnika – Grudziądz i okolice",
+    "image": "/glazurnik.png",
+    "image_alt": "Glazurnik przy realizacji – fachowiec z Grudziądza i okolic",
+    "trust_card": {
+      "title": "Kto przygotowuje Twoją wycenę",
+      "subtitle": "Rozmawiasz z osobą, która pracuje na budowie – nie z call center. Dlatego potrafimy wytłumaczyć każdą pozycję w kosztorysie i nie boimy się powiedzieć „tego nie da się zrobić taniej bez ryzyka”.",
+      "points": [
+        "Wycena po poznaniu zakresu – bez presji i bez „ceny z banera”",
+        "Na życzenie oględziny przed ostateczną kwotą",
+        "Rozpisujemy robociznę osobno od materiałów – wiesz, za co płacisz"
+      ]
+    },
+    "description": "Robocizna to osobny budżet obok płytek i chemii. Poniżej skrót orientacyjnych widełek na 2026 rok oraz nasze typowe pakiety – szczegóły i uzasadnienie kosztów opisujemy na osobnej stronie.",
+    "note": "Każda inwestycja jest inna: ten sam metraż przy innej płytce, podłożu i liczbie otworów może zmienić koszt nawet dwukrotnie. Zawsze wyceniamy po rozmowie i – gdy trzeba – po oględzinach.",
+    "intro": "Stawka „za metr” rzadko oddaje pełny obraz. Format gresu, przygotowanie podłoża, odpływy, otwory w twardym materiale i detale narożników to pozycje, które trzeba ustalić jasno – inaczej porównujesz dwie różne usługi.",
+    "highlights": [
+      "W Grudziądzu i okolicy często pracujemy w niższym paśmie niż największe aglomeracje – bez rezygnacji z jakości wykonania.",
+      "Nie obiecujemy ceny z banera „od X zł”, jeśli nie znamy zakresu – wolimy uczciwą rozpiskę.",
+      "Pełny przewodnik: formaty, dodatki do wyceny i typowe pułapki budżetowe → osobny artykuł (link poniżej)."
+    ],
+    "benchmark_caption": "Przykładowe widełki robocizny (materiał, klej i fuga osobno) – traktuj jako punkt odniesienia:",
+    "benchmark_rows": [
+      { "label": "Średni format, klasyczny układ", "range": "ok. 130–195 zł/m²" },
+      { "label": "Mały format / więcej cięć i fug", "range": "ok. 170–260 zł/m²" },
+      { "label": "Duży format / wysokie ryzyko przy cięciu", "range": "od ok. 190 zł/m²" }
+    ],
+    "items": [
+      {
+        "label": "Układanie płytek (średni format, dobre podłoże)",
+        "value": "od ok. 120 zł/m²"
+      },
+      {
+        "label": "Łazienka kompleksowo (typowy zakres)",
+        "value": "od ok. 8000 zł robocizny"
+      },
+      {
+        "label": "Małe poprawki, dogrywki, pojedyncze pomieszczenia",
+        "value": "wycena po opisie / oględzinach"
+      }
+    ],
+    "article_link": {
+      "label": "Czytaj pełny cennik i poradnik: ukryte koszty, formaty, budżet",
+      "href": "/glazurnik-grudziadz-cennik"
+    },
+    "cta": { "label": "Wyślij zapytanie o wycenę", "href": "/#wycena" }
+  },
+  "seo_content": {
+    "id": "o-nas",
+    "title": "Dobry glazurnik w Grudziądzu – dlaczego my?",
+    "image": "/glazurnicy.png",
+    "image_alt": "Glazurnicy przy pracy – jakość i doświadczenie w Grudziądzu",
+    "paragraphs": [
+      "Jeśli szukasz dobrego glazurnika w Grudziądzu, jesteś w odpowiednim miejscu. Wykonujemy kompleksowe usługi glazurnicze – od prostych prac po zaawansowane realizacje.",
+      "Działamy jako doświadczony płytkarz w Grudziądzu, oferując najwyższą jakość wykonania i terminowość.",
+      "Zastanawiasz się ile kosztuje glazurnik w Grudziądzu? Skontaktuj się z nami – przygotujemy darmową wycenę dopasowaną do Twojego projektu."
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Najczęściej zadawane pytania",
+    "intro": "Odpowiedzi na pytania, które pojawiają się najczęściej przed rozpoczęciem współpracy.",
+    "items": [
+      {
+        "question": "Ile kosztuje glazurnik w Grudziądzu?",
+        "answer": "Cena zależy od zakresu prac i rodzaju płytek. Skontaktuj się z nami, aby otrzymać dokładną wycenę."
+      },
+      {
+        "question": "Jak szybko możecie rozpocząć pracę?",
+        "answer": "Wiele zleceń rozpoczynamy nawet w ciągu kilku dni."
+      },
+      {
+        "question": "Czy wykonujecie małe zlecenia?",
+        "answer": "Tak, realizujemy zarówno małe, jak i duże projekty."
+      }
+    ]
+  },
+  "final_cta": {
+    "headline": "Szukasz glazurnika w Grudziądzu?",
+    "subheadline": "Zostaw kontakt – oddzwonimy i przygotujemy darmową wycenę",
+    "cta": { "label": "Zamów wycenę teraz", "href": "/#wycena" }
+  },
+  "footer": {
+    "trust_role": "Pośrednik zleceń glazurniczych – Grudziądz i okolice",
+    "text": "Glazurnik Grudziądz – usługi glazurnicze | Kontakt telefoniczny i formularz 24/7",
+    "trust_note": "Dane z formularza wykorzystujemy wyłącznie do kontaktu w sprawie zapytania (RODO).",
+    "nearby_heading": "Glazurnik w okolicy",
+    "nearby_links": [
+      { "label": "Glazurnik Toruń", "href": "/#" },
+      { "label": "Glazurnik Bydgoszcz", "href": "/#" },
+      { "label": "Glazurnik Włocławek", "href": "/#" },
+      { "label": "Glazurnik Chełmno", "href": "/#" },
+      { "label": "Glazurnik Brodnica", "href": "/#" }
+    ],
+    "company_heading": "Dane firmy",
+    "company": {
+      "name": "Usługi Remontowo-Budowlane „Kafel-Mistrz” Jan Kowalski",
+      "address": "ul. Toruńska 42 lok. 4, 86-300 Grudziądz",
+      "nip": "876-543-10-28",
+      "regon": "340012567",
+      "krs": "0000987654"
+    }
+  }
+}
