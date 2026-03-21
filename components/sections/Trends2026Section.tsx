@@ -35,30 +35,6 @@ export function Trends2026Section({ trends }: Props) {
           </ul>
         </div>
 
-        {trends.images.length > 0 ? (
-          <div className="mt-12 sm:mt-14 lg:mt-16">
-            <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4">
-              {trends.images.map((img, idx) => (
-                <div
-                  key={`${img.file}-${idx}`}
-                  className="mb-3 break-inside-avoid sm:mb-4"
-                >
-                  <div className="border border-[var(--border)] bg-[var(--card)] shadow-[0_4px_24px_-10px_rgba(28,25,23,0.12)]">
-                    <Image
-                      src={`${BASE}/${img.file}`}
-                      alt={img.alt}
-                      width={LAYOUT_W}
-                      height={LAYOUT_H}
-                      className="block h-auto w-full max-w-full object-contain align-top"
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                      priority={idx < 2}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : null}
       </div>
     </section>
   );
