@@ -34,16 +34,6 @@ function FieldBlock({ field }: { field: Field }) {
           className={`${inputClass} min-h-[5.5rem] resize-y`}
         />
       ) : null}
-      {field.type === "file" ? (
-        <input
-          id={`hero-${field.id}`}
-          name={field.id}
-          type="file"
-          required={field.required}
-          accept={field.accept}
-          className="mt-2 block w-full text-xs text-[var(--text-tertiary)] file:mr-3 file:border file:border-[var(--border)] file:bg-[var(--background)] file:px-3 file:py-2 file:text-xs file:font-medium file:text-[var(--text-body)] hover:file:bg-[var(--hero-tint)]"
-        />
-      ) : null}
       {field.type === "text" || field.type === "tel" ? (
         <input
           id={`hero-${field.id}`}
@@ -66,13 +56,14 @@ function FieldBlock({ field }: { field: Field }) {
 
 export function HeroLeadForm({ leadForm }: Props) {
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const byId = Object.fromEntries(leadForm.fields.map((f) => [f.id, f])) as Record<string, Field | undefined>;
   const name = byId.name;
   const phone = byId.phone;
   const scope = byId.scope;
   const area = byId.area;
-  const photo = byId.photo;
 
   return (
     <div
@@ -102,9 +93,26 @@ export function HeroLeadForm({ leadForm }: Props) {
       ) : (
         <form
           className="mt-7 space-y-5"
-          onSubmit={(e) => {
+          onSubmit={async (e) => {
             e.preventDefault();
-            setSent(true);
+            setSubmitError(null);
+            const form = e.currentTarget;
+            setSubmitting(true);
+            try {
+              const body = new FormData(form);
+              const res = await fetch("/api/leads", { method: "POST", body });
+              const data = (await res.json().catch(() => ({}))) as { error?: string };
+              if (!res.ok) {
+                setSubmitError(data.error || "Nie udało się wysłać formularza. Spróbuj ponownie.");
+                return;
+              }
+              setSent(true);
+              form.reset();
+            } catch {
+              setSubmitError("Brak połączenia. Sprawdź internet i spróbuj ponownie.");
+            } finally {
+              setSubmitting(false);
+            }
           }}
         >
           {name && phone ? (
@@ -114,23 +122,23 @@ export function HeroLeadForm({ leadForm }: Props) {
             </div>
           ) : null}
           {scope ? <FieldBlock field={scope} /> : null}
-          {area && photo ? (
-            <div className="grid gap-4 sm:grid-cols-2 sm:items-end">
-              <FieldBlock field={area} />
-              <FieldBlock field={photo} />
-            </div>
-          ) : (
-            <>
-              {area ? <FieldBlock field={area} /> : null}
-              {photo ? <FieldBlock field={photo} /> : null}
-            </>
-          )}
+          {area ? <FieldBlock field={area} /> : null}
+
+          {submitError ? (
+            <p
+              className="border border-red-200/90 bg-red-50/95 p-4 text-sm leading-relaxed text-red-950"
+              role="alert"
+            >
+              {submitError}
+            </p>
+          ) : null}
 
           <button
             type="submit"
-            className="w-full bg-[var(--accent)] py-3.5 text-sm font-semibold text-white shadow-md transition-colors hover:bg-[var(--accent-hover)]"
+            disabled={submitting}
+            className="w-full bg-[var(--accent)] py-3.5 text-sm font-semibold text-white shadow-md transition-colors hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {leadForm.cta}
+            {submitting ? "Wysyłanie…" : leadForm.cta}
           </button>
           <p className="text-center text-[11px] leading-[1.6] text-[var(--text-tertiary)]">
             Wysyłając formularz, zgadzasz się na kontakt w sprawie zapytania. Nie przekazujemy danych osobom

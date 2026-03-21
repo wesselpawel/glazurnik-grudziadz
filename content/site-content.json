@@ -76,13 +76,6 @@
         "placeholder": "Np. 12 m²",
         "required": false,
         "autoComplete": "off"
-      },
-      {
-        "id": "photo",
-        "label": "Opcjonalnie: zdjęcie",
-        "type": "file",
-        "accept": "image/*",
-        "required": false
       }
     ],
     "cta": "Wyślij zapytanie",
