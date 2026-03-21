@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { SiteContent } from "@/content";
 
 type Props = {
@@ -7,12 +8,22 @@ type Props = {
 export function SiteHeader({ navigation }: Props) {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--background)]/95 shadow-[0_1px_0_rgba(28,25,23,0.05)] backdrop-blur-md">
-      <div className="page-shell flex items-center justify-between gap-4 py-[1.125rem] sm:py-5">
+      <div className="page-shell flex items-center justify-between py-[1.125rem] sm:py-5">
         <a
           href="/"
-          className="font-[family-name:var(--font-display)] text-lg font-semibold tracking-tight text-[var(--text-heading)]"
+          className="flex items-center font-[family-name:var(--font-display)] text-lg font-semibold tracking-tight text-[var(--text-heading)]"
         >
+          <Image
+            src="/GG.png"
+            alt=""
+            width={120}
+            height={120}
+            className="w-20 h-auto shrink-0"
+            priority
+          />
+          <span className="max-w-12">
           {navigation.brand}
+          </span>
         </a>
         <nav
           className="hidden items-center gap-8 text-[0.9375rem] font-medium text-[var(--text-secondary)] md:flex"
