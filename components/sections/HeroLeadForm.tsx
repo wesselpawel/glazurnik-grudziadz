@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { SiteContent } from "@/content";
+import Link from "next/link";
 
 type Props = {
   leadForm: SiteContent["lead_form"];
@@ -71,6 +72,10 @@ export function HeroLeadForm({ leadForm }: Props) {
       className="scroll-mt-28 border border-[var(--border)] bg-[var(--trust-surface)] p-7 shadow-[0_24px_56px_-14px_rgba(0,0,0,0.38)] backdrop-blur-md sm:p-8 lg:p-9"
     >
       <div className="border-b border-[var(--border)] pb-6">
+        <div className="flex flex-row items-center gap-2 mb-2">
+          <div className="w-3 h-3 rounded-full bg-green-500 animate-bounce"></div>
+          <Link href="tel:+48721417154" className="text-sm text-[var(--text-heading)]">+48 721 417 154</Link>
+        </div>
         <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-tertiary)]">
           Formularz kontaktowy
         </p>
