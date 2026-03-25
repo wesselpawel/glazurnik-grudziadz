@@ -1,6 +1,7 @@
 export { SiteHeader } from "./SiteHeader";
 export { HeroSection } from "./HeroSection";
 export { HeroLeadForm } from "./HeroLeadForm";
+export { RealizationsStripSection } from "./RealizationsStripSection";
 export { ServicesSection } from "./ServicesSection";
 export { ProcessSection } from "./ProcessSection";
 export { GallerySection } from "./GallerySection";

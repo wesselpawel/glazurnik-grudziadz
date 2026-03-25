@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "title": "Remont łazienki Grudziądz – glazurnik, układanie płytek, cennik 2026",
+    "description": "Kompleksowy remont łazienki w Grudziądzu. Glazurnik, projekt, układanie płytek i wycena. Sprawdź ceny i umów darmowy pomiar.",
+    "keywords": [
+      "remont łazienki Grudziądz",
+      "glazurnik Grudziądz",
+      "układanie płytek Grudziądz",
+      "kafelkarz Grudziądz",
+      "kompleksowy remont łazienki Grudziądz",
+      "projekt łazienki Grudziądz",
+      "wykończenie łazienki Grudziądz"
+    ],
+    "openGraph": {
+      "title": "Remont łazienki Grudziądz – kompleksowo od projektu po wykonanie",
+      "description": "Projekt, wizualizacja, układanie płytek i montaż armatury w Grudziądzu. Darmowy pomiar i konkretna wycena."
+    }
+  },
+  "navigation": {
+    "brand": "Glazurnik Grudziądz",
+    "links": [
+      { "label": "Usługi", "href": "#uslugi" },
+      { "label": "Współpraca", "href": "#proces" },
+      { "label": "Realizacje", "href": "#realizacje" },
+      { "label": "Cennik", "href": "#cennik" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": { "label": "Darmowa wycena", "href": "#wycena" }
+  },
+  "hero": {
+    "id": "top",
+    "background_image": "/realization2.png",
+    "h1": "Remont łazienki Grudziądz – kompleksowo od projektu po wykonanie",
+    "subheadline": "Szukasz sprawdzonej ekipy na remont łazienki w Grudziądzu? Oferujemy projekt, wizualizację, układanie płytek, montaż armatury i wykończenie łazienki bez stresu.",
+    "cta_primary": { "label": "Umów darmową wycenę", "href": "#wycena" },
+    "cta_secondary": { "label": "Zobacz realizacje", "href": "#realizacje" },
+    "trust_badges": [
+      { "text": "Projekt + realizacja + materiały" },
+      { "text": "Darmowy pomiar łazienki" },
+      { "text": "Szybkie terminy" },
+      { "text": "Grudziądz i okolice" }
+    ],
+    "trust_line": "Doświadczony glazurnik w Grudziądzu, dokładność i terminowość. Wykonujemy remont łazienki Grudziądz kompleksowo - od projektu po finalny montaż."
+  },
+  "lead_form": {
+    "id": "wycena",
+    "title": "Darmowa wycena remontu łazienki",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Imię",
+        "type": "text",
+        "placeholder": "Jan",
+        "required": true,
+        "autoComplete": "given-name"
+      },
+      {
+        "id": "phone",
+        "label": "Telefon",
+        "type": "tel",
+        "placeholder": "+48 …",
+        "required": true,
+        "autoComplete": "tel"
+      },
+      {
+        "id": "scope",
+        "label": "Zakres prac",
+        "type": "textarea",
+        "placeholder": "Np. mała łazienka 5 m², projekt + układanie płytek + biały montaż…",
+        "required": true,
+        "rows": 3
+      },
+      {
+        "id": "area",
+        "label": "Metraż",
+        "type": "text",
+        "placeholder": "Np. 6 m²",
+        "required": false,
+        "autoComplete": "off"
+      }
+    ],
+    "cta": "Wyślij zapytanie o wycenę",
+    "note": "Oddzwonimy, ustalimy zakres i umówimy pomiar łazienki w Grudziądzu."
+  },
+  "realizations_strip": {
+    "heading": "Realizacje łazienek w Grudziądzu"
+  },
+  "trends_2026": {
+    "id": "inspiracje",
+    "title": "Nowoczesne łazienki Grudziądz - inspiracje i aranżacje",
+    "summary_title": "Najczęściej wybierane rozwiązania",
+    "summary_items": [
+      { "text": "Minimalistyczne łazienki z dużym formatem i prostą zabudową" },
+      { "text": "Płytki drewnopodobne, gres i kamień naturalny do stref mokrych" },
+      { "text": "Styl loft, klasyczny i nowoczesne małe łazienki w blokach" },
+      { "text": "Projekt łazienki Grudziądz + wykonanie w jednym miejscu" }
+    ],
+    "images": [
+      { "file": "1.png", "alt": "Nowoczesna łazienka Grudziądz - inspiracja" },
+      { "file": "2.png", "alt": "Aranżacja łazienki Grudziądz - duży format" },
+      { "file": "3.png", "alt": "Płytki łazienkowe Grudziądz montaż - inspiracja" },
+      { "file": "4.png", "alt": "Projekt i remont łazienki pod klucz" },
+      { "file": "5.png", "alt": "Wykończenie łazienki Grudziądz - detale" }
+    ]
+  },
+  "services": {
+    "id": "uslugi",
+    "title": "Kompleksowy remont łazienki w Grudziądzu - co obejmuje?",
+    "intro": "Oferujemy kompleksowe układanie płytek w Grudziądzu i okolicach, a także pełne wykończenie łazienki: od rozbiórki, przez projekt i hydroizolację, po biały montaż i odbiór gotowego wnętrza.",
+    "form_href": "#wycena",
+    "items": [
+      {
+        "id": "remont-pod-klucz",
+        "title": "Remont łazienki Grudziądz kompleksowo",
+        "lead": "Jedna ekipa, jeden harmonogram i pełna odpowiedzialność za efekt końcowy.",
+        "paragraphs": [
+          "Wykonujemy demontaż starej łazienki, przygotowanie podłoża, hydroizolację, układanie płytek, montaż kabiny prysznicowej lub wanny, WC, umywalki i armatury.",
+          "Dzięki temu nie musisz koordynować kilku wykonawców. Remont łazienki w Grudziądzu prowadzimy pod klucz, bez chaosu, opóźnień i niepotrzebnych przestojów.",
+          "To dobre rozwiązanie, jeśli zależy Ci na usłudze projekt + realizacja łazienki Grudziądz oraz wsparciu przy zakupie materiałów."
+        ],
+        "image": "/service2.png",
+        "image_alt": "Kompleksowy remont łazienki Grudziądz",
+        "cta_label": "Wycena remontu łazienki"
+      },
+      {
+        "id": "ukladanie-plytek-lazienka",
+        "title": "Glazurnik Grudziądz - precyzyjne układanie płytek",
+        "lead": "Profesjonalne układanie gresu i płytek wielkoformatowych z dbałością o detal.",
+        "paragraphs": [
+          "Specjalizujemy się w układaniu płytek łazienkowych, gresu, ceramiki, płytek drewnopodobnych oraz kamienia naturalnego. Realizujemy także trudne wzory, ozdobne układy i wielki format.",
+          "Dobry kafelkarz Grudziądz łazienka to nie tylko estetyka, ale też prawidłowe spadki, szczelność i trwałość na lata. Eliminujemy błędy, które później generują kosztowne poprawki.",
+          "Jeśli interesuje Cię układanie płytek Grudziądz cennik albo glazurnik Grudziądz cena, przygotujemy wycenę po zapoznaniu się z metrażem i zakresem prac."
+        ],
+        "image": "/service1.png",
+        "image_alt": "Układanie płytek Grudziądz w łazience",
+        "cta_label": "Zapytaj o układanie płytek"
+      },
+      {
+        "id": "projekt-wizualizacja",
+        "title": "Projekt łazienki Grudziądz + wykonanie",
+        "lead": "Zanim zaczniemy prace, przygotowujemy pomiar, koncepcję funkcjonalną i wizualizację łazienki.",
+        "paragraphs": [
+          "Wykonujemy dokładny pomiar, pomagamy dobrać płytki łazienkowe, armaturę i wyposażenie oraz tworzymy projektowanie łazienki dopasowane do budżetu i potrzeb domowników.",
+          "Wizualizacja łazienki pozwala zobaczyć efekt końcowy jeszcze przed rozpoczęciem remontu. Dzięki temu projekt łazienki Grudziądz + wykonanie przebiega szybciej i bez niespodzianek.",
+          "To szczególnie ważne przy inwestycjach premium, gdzie liczy się spójna aranżacja łazienki Grudziądz, komfort użytkowania i wysoka jakość materiałów."
+        ],
+        "image": "/service3.png",
+        "image_alt": "Projekt łazienki Grudziądz i wizualizacja",
+        "cta_label": "Umów pomiar i projekt"
+      },
+      {
+        "id": "wykonczenie-i-armatura",
+        "title": "Wykończenie łazienki Grudziądz i montaż armatury",
+        "lead": "Dbamy o ostatni etap, który decyduje o komforcie użytkowania i finalnym wyglądzie łazienki.",
+        "paragraphs": [
+          "Realizujemy montaż armatury łazienkowej, montaż kabiny prysznicowej, biały montaż, silikonowanie oraz wszystkie detale wykończeniowe potrzebne do odbioru gotowej łazienki.",
+          "Pomagamy również w wyborze materiałów i wyposażenia. Jeśli potrzebujesz remontu łazienki bez stresu, prowadzimy całość od początku do końca w jednym standardzie jakości.",
+          "Obsługujemy Grudziądz i okolice, dlatego bez problemu przygotujemy wycenę i termin także dla inwestycji poza samym centrum miasta."
+        ],
+        "image": "/service4.png",
+        "image_alt": "Wykończenie łazienki Grudziądz i montaż armatury",
+        "cta_label": "Zapytaj o wolny termin"
+      }
+    ]
+  },
+  "process": {
+    "id": "proces",
+    "title": "Jak wygląda remont łazienki z nami",
+    "intro": "Pracujemy według prostego planu: od pierwszego kontaktu do gotowej łazienki. Dzięki temu inwestor od początku zna zakres, budżet i kolejne etapy realizacji.",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Kontakt i darmowy pomiar",
+        "description": "Rozmawiamy o potrzebach, oglądamy łazienkę i zbieramy dane do wyceny remontu łazienki Grudziądz."
+      },
+      {
+        "step": "2",
+        "title": "Projekt i kosztorys",
+        "description": "Przygotowujemy układ funkcjonalny, listę materiałów i konkretną wycenę robocizny oraz zakresu prac."
+      },
+      {
+        "step": "3",
+        "title": "Realizacja prac",
+        "description": "Wykonujemy demontaż, hydroizolację, układanie płytek, montaż armatury i wszystkie uzgodnione etapy."
+      },
+      {
+        "step": "4",
+        "title": "Odbiór gotowej łazienki",
+        "description": "Sprawdzamy detale, szczelność i estetykę wykończenia, aby oddać gotowe wnętrze bez poprawek na szybko."
+      }
+    ]
+  },
+  "gallery": {
+    "id": "realizacje",
+    "title": "Realizacje łazienek",
+    "images": [
+      { "file": "1.png", "alt": "Remont łazienki Grudziądz - realizacja 1" },
+      { "file": "2.png", "alt": "Układanie płytek Grudziądz - realizacja łazienki" },
+      { "file": "3.png", "alt": "Nowoczesna łazienka Grudziądz po remoncie" },
+      { "file": "4.png", "alt": "Wykończenie łazienki Grudziądz - detale" },
+      { "file": "5.png", "alt": "Płytki łazienkowe Grudziądz montaż - realizacja" },
+      { "file": "6.png", "alt": "Kabina prysznicowa i gres - łazienka Grudziądz" },
+      { "file": "7.png", "alt": "Kompleksowy remont łazienki Grudziądz - efekt końcowy" }
+    ]
+  },
+  "pricing": {
+    "id": "cennik",
+    "title": "Ile kosztuje remont łazienki w Grudziądzu?",
+    "image": "/glazurnik.png",
+    "image_alt": "Glazurnik Grudziądz podczas prac remontowych",
+    "trust_card": {
+      "title": "Co dostajesz w wycenie",
+      "subtitle": "Rozpisujemy zakres prac, orientacyjne terminy i podział kosztów tak, abyś wiedział, za co płacisz i gdzie warto dopłacić do lepszego rozwiązania.",
+      "points": [
+        "Darmowy pomiar łazienki Grudziądz i rozmowa o zakresie",
+        "Wycena robocizny oddzielona od materiałów",
+        "Możliwość połączenia projektu, wykonania i wsparcia zakupowego"
+      ]
+    },
+    "description": "Koszt remontu łazienki zależy od metrażu, formatu płytek, stanu podłoża, ilości przeróbek i zakresu białego montażu. Dlatego zamiast zgadywać, przygotowujemy konkretną wycenę po oględzinach.",
+    "note": "Podane widełki dotyczą głównie robocizny. Materiały, armatura i wyposażenie wyceniamy osobno, żeby budżet był czytelny i łatwy do porównania.",
+    "intro": "Jeśli interesuje Cię remont łazienki Grudziądz cena, warto patrzeć nie tylko na stawkę za metr, ale też na hydroizolację, cięcia, zabudowy, odpływy i liczbę punktów montażowych.",
+    "highlights": [
+      "Mała łazienka zwykle oznacza więcej cięć, zabudów i precyzyjnych detali na niewielkim metrażu.",
+      "Duży format, płytki rektyfikowane i armatura podtynkowa podnoszą wymagania wykonawcze, ale dają efekt premium.",
+      "Kompleksowy remont łazienki Grudziądz opłaca się bardziej niż rozbijanie prac na kilka ekip."
+    ],
+    "benchmark_caption": "Orientacyjne widełki robocizny w 2026 roku:",
+    "benchmark_rows": [
+      { "label": "Mała łazienka", "range": "ok. 8 000 - 15 000 zł" },
+      { "label": "Średnia łazienka", "range": "ok. 15 000 - 25 000 zł" },
+      { "label": "Kompleksowy remont + projekt", "range": "ok. 20 000 - 40 000 zł" }
+    ],
+    "items": [
+      {
+        "label": "Darmowy pomiar i wstępna wycena",
+        "value": "0 zł"
+      },
+      {
+        "label": "Remont łazienki pod klucz",
+        "value": "od ok. 8 000 zł"
+      },
+      {
+        "label": "Projekt + realizacja + materiały",
+        "value": "wycena indywidualna"
+      }
+    ],
+    "article_link": {
+      "label": "Zobacz pełny cennik usług glazurniczych",
+      "href": "/glazurnik-grudziadz-cennik"
+    },
+    "cta": { "label": "Umów darmową wycenę", "href": "#wycena" }
+  },
+  "seo_content": {
+    "id": "o-nas",
+    "title": "Dlaczego warto wybrać nas do remontu łazienki w Grudziądzu?",
+    "image": "/glazurnicy.png",
+    "image_alt": "Sprawdzony glazurnik Grudziądz - zespół przy pracy",
+    "paragraphs": [
+      "Jeśli szukasz sprawdzonego wykonawcy na remont łazienki w Grudziądzu, stawiamy na dokładność, terminowość i czytelny proces współpracy. Nie musisz organizować kilku ekip - zajmujemy się projektem, płytkami i wykończeniem od początku do końca.",
+      "Pomagamy w doborze materiałów, planowaniu budżetu i podejmowaniu decyzji technicznych. Dzięki temu remont łazienki bez stresu naprawdę jest możliwy, nawet jeśli inwestycja obejmuje wielki format, zabudowy lub armaturę podtynkową.",
+      "Doświadczony glazurnik w Grudziądzu to nie tylko równe fugi. To także umiejętność przewidzenia problemów, dobre przygotowanie podłoża i estetyczne wykończenie detali, które widać codziennie przez lata.",
+      "Jeśli porównujesz: tani glazurnik Grudziądz, dobry glazurnik Grudziądz opinie czy szybki termin glazurnik Grudziądz, najlepiej zacząć od rozmowy i oględzin. Wtedy możemy uczciwie ocenić zakres i zaproponować rozwiązanie dopasowane do Twojej łazienki."
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Najczęściej zadawane pytania - remont łazienki Grudziądz",
+    "intro": "Poniżej znajdziesz odpowiedzi na pytania, które najczęściej pojawiają się przed rozpoczęciem remontu i układania płytek w łazience.",
+    "items": [
+      {
+        "question": "Ile kosztuje remont łazienki w Grudziądzu?",
+        "answer": "Najczęściej robocizna mieści się w przedziale od około 8 000 do 25 000 zł, ale dokładny koszt zależy od metrażu, zakresu prac, formatu płytek i liczby elementów do montażu."
+      },
+      {
+        "question": "Czy oferujecie projekt łazienki i wizualizację?",
+        "answer": "Tak. Możemy zacząć od pomiaru, układu funkcjonalnego i wizualizacji 3D, a następnie przejść do wykonania remontu zgodnie z ustalonym projektem."
+      },
+      {
+        "question": "Czy pomagacie w zakupie płytek i armatury?",
+        "answer": "Tak. Doradzamy przy wyborze materiałów, płytek łazienkowych, armatury i wyposażenia tak, aby były dopasowane do budżetu, stylu wnętrza i warunków technicznych."
+      },
+      {
+        "question": "Czy działacie także poza Grudziądzem?",
+        "answer": "Tak, obsługujemy również okolice Grudziądza. Jeśli inwestycja jest w pobliskiej miejscowości, po prostu opisz lokalizację w formularzu lub podczas rozmowy."
+      }
+    ]
+  },
+  "final_cta": {
+    "headline": "Umów darmową wycenę remontu łazienki w Grudziądzu",
+    "subheadline": "Zadzwoń lub zostaw kontakt. Oddzwonimy, umówimy pomiar i przygotujemy konkretną wycenę bez zobowiązań.",
+    "cta": { "label": "Chcę wycenę łazienki", "href": "#wycena" }
+  }
+}

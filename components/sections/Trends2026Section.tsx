@@ -1,15 +1,8 @@
-import Image from "next/image";
 import type { SiteContent } from "@/content";
 
 type Props = {
   trends: SiteContent["trends_2026"];
 };
-
-/** Ścieżka względem folderu `public` (np. pliki w `public/co-goroje/`) */
-const BASE = "/co-goroje";
-
-const LAYOUT_W = 1200;
-const LAYOUT_H = 1500;
 
 export function Trends2026Section({ trends }: Props) {
   return (
